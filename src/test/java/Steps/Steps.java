@@ -17,6 +17,7 @@ public class Steps {
 	@Given("que acesse o banco {string}")
 	public void que_acesse_o_banco(String url) {
 		m.abrirNavegador(url);
+		System.out.println("Teste");
 	}
 
 	@When("selecionar o botao abra sua conta")
